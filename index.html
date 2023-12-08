@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="light">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!--link da fonte usada na página.-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- configuração para que a disposição se adapte à largura da tela do dispositivo-->
+    <title>Dev Links</title>
+    <link rel="stylesheet" href="./style.css" />
+    <!--A tag link está se relacionando com um arquivo do tipo "stylesheet", identificado pelo atributo "rel". O atributo "href" indica o link onde o arquivo CSS está localizado. Por estar localizado na mesma página, faz-se a referência com "./"-->
+  </head>
+  <body>
+    <div id="container">
+      <!--Div é a configuração ideal para caixa. Todos os elementos são caixas-->
+      <div id="profile">
+        <img
+          src="./assets/assets/avatar-renato.png"
+          alt="Foto de Renato com fundo roxo."
+        />
+        <p>@renatocosta</p>
+
+        <div id="switch" onclick="toggleMode()">
+
+          <button>
+            
+          </button>
+          <span>
+
+          </span>
+        </div>
+        <ul>
+          <!--container usado para criar lista-->
+          <li>
+            <!--ítem da lista-->
+            <a
+              href="https://api.whatsapp.com/send?phone=5521993006557"
+              target="_blank"
+              >Fale comigo</a
+            >
+            <!--elemento "target="_blanck" faz a página do link ser aberta em uma nova guia-->
+          </li>
+          <li>
+            <a href="https://github.com/renatocdev"target="_blanck">Meu Git-hub</a>
+          </li>
+        </ul>
+        <div id="social-links">
+          <a href="https://github.com/renatocdev" target="_blank">
+            <ion-icon name="logo-github"></ion-icon>
+          </a>
+          <a href="https://linkedin.com/in/renato-costa-6bb705131" target="_blank">
+           <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+
+        
+      </div>
+        <footer>
+          Feito com ♥ por Renato Costa | Desenvolvedor Web Fullstack
+        </footer>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
